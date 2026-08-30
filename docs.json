@@ -1,0 +1,200 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Snapmarket",
+  "colors": {
+    "primary": "#5754FF",
+    "light": "#8A87FF",
+    "dark": "#4340D6"
+  },
+  "favicon": "/images/favicon-primary.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Start here",
+        "icon": "compass",
+        "pages": [
+          "index",
+          "method/overview",
+          "method/manuscript",
+          "method/coordinates",
+          "method/thesis",
+          "method/prologue"
+        ]
+      },
+      {
+        "group": "Chapter 1 — Story",
+        "icon": "feather",
+        "pages": [
+          "story/overview",
+          {
+            "group": "§ 1.1 Message",
+            "icon": "comment",
+            "pages": [
+              "story/message/overview",
+              "story/message/messaging-document",
+              "story/message/ideal-client-profile",
+              "story/message/messaging-refresh"
+            ]
+          },
+          {
+            "group": "§ 1.2 Strategy",
+            "icon": "map",
+            "pages": [
+              "story/strategy/overview",
+              "story/strategy/go-to-market-plan",
+              "story/strategy/campaign-strategy"
+            ]
+          },
+          {
+            "group": "§ 1.3 Visual identity",
+            "icon": "palette",
+            "pages": [
+              "story/visual-identity/overview",
+              "story/visual-identity/brand-identity",
+              "story/visual-identity/brand-refresh",
+              "story/visual-identity/photography-and-video"
+            ]
+          },
+          "story/storybook",
+          "story/what-we-need-from-you"
+        ]
+      },
+      {
+        "group": "Chapter 2 — System",
+        "icon": "gear",
+        "pages": [
+          "system/overview",
+          {
+            "group": "§ 2.1 Website",
+            "icon": "browser",
+            "pages": [
+              "system/website/overview",
+              "system/website/design-and-build",
+              "system/website/updates-and-landing-pages",
+              "system/website/domain-and-hosting"
+            ]
+          },
+          "system/integrations",
+          {
+            "group": "§ 2.3 Analytics",
+            "icon": "chart-simple",
+            "pages": [
+              "system/analytics/overview",
+              "system/analytics/analytics-setup",
+              "system/analytics/performance-reporting",
+              "system/analytics/seo"
+            ]
+          },
+          "system/capstone"
+        ]
+      },
+      {
+        "group": "Chapter 3 — Send",
+        "icon": "paper-plane",
+        "pages": [
+          "send/overview",
+          {
+            "group": "§ 3.1 Podcast",
+            "icon": "microphone",
+            "pages": [
+              "send/podcast/overview",
+              "send/podcast/show-setup",
+              "send/podcast/content-package",
+              "send/podcast/video-editing"
+            ]
+          },
+          {
+            "group": "§ 3.2 Content marketing",
+            "icon": "pen-nib",
+            "pages": [
+              "send/content/overview",
+              "send/content/blog-and-long-form",
+              "send/content/social",
+              "send/content/email",
+              "send/content/linkedin-lead-gen"
+            ]
+          },
+          {
+            "group": "§ 3.3 Sales and other assets",
+            "icon": "folder-open",
+            "pages": [
+              "send/assets/overview",
+              "send/assets/print-and-collateral",
+              "send/assets/paid-and-pr"
+            ]
+          },
+          "send/capstone"
+        ]
+      },
+      {
+        "group": "Scale — the layer",
+        "icon": "chart-line",
+        "pages": [
+          "scale/overview",
+          "scale/funnel-and-cohorts",
+          "scale/leading-and-lagging",
+          "scale/baseline",
+          "scale/unit-economics",
+          "scale/experiments",
+          "scale/audit"
+        ]
+      },
+      {
+        "group": "Epilogue",
+        "icon": "book-bookmark",
+        "pages": [
+          "epilogue"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/logo-primary.png",
+    "dark": "/images/logo-white.png",
+    "href": "https://snapmarket.co"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://notes.snapmarket.co",
+        "label": "Field notes"
+      },
+      {
+        "label": "Support",
+        "href": "mailto:support@snapmarket.co"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "snapmarket.co",
+      "href": "https://snapmarket.co"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/snapmarket"
+    }
+  },
+  "description": "How a Snapmarket partnership works — the methodology, the rhythm, and the platforms we run it on.",
+  "fonts": {
+    "heading": {
+      "family": "Fraunces"
+    },
+    "body": {
+      "family": "Besley"
+    }
+  },
+  "appearance": {
+    "default": "light",
+    "strict": true
+  }
+}
