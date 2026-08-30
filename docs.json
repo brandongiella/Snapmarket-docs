@@ -7,7 +7,7 @@
     "light": "#8A87FF",
     "dark": "#4340D6"
   },
-  "favicon": "/images/favicon-primary.png",
+  "favicon": "/favicon.svg",
   "navigation": {
     "groups": [
       {
@@ -150,8 +150,8 @@
     ]
   },
   "logo": {
-    "light": "/images/logo-primary.png",
-    "dark": "/images/logo-white.png",
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
     "href": "https://snapmarket.co"
   },
   "navbar": {

@@ -1,55 +1,57 @@
-# Mintlify Starter Kit
+# Snapmarket docs
 
-Use the starter kit to get your docs deployed and ready to customize.
+Client-facing documentation for Snapmarket partnerships. Deploys to
+[docs.snapmarket.co](https://docs.snapmarket.co) via Mintlify on every push to `main`.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## What this is
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+The client-facing translation of the Snapmarket operations repo. It explains the
+Story, System, Send, Scale methodology, what a partnership looks like chapter by
+chapter, and what we ask of a partner at each stage.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+It deliberately does not contain internal production detail. No pricing, no hour
+estimates, no skill files, no rate floors. Clients get the shape of the work and
+the rhythm of it, never the machinery.
 
-## AI-assisted writing
+## Structure
 
-Set up your AI coding tool to work with Mintlify:
+- `docs.json` — site config and navigation
+- `index.mdx` — welcome page
+- `method/` — the methodology, the thesis, the coordinate system, the Prologue
+- `story/`, `system/`, `send/` — the three chapters, each with section subfolders
+- `scale/` — the measurement layer
+- `epilogue.mdx` — offboarding
+- `logo/`, `favicon.svg` — brand assets
+- `fonts/` — Novela web fonts, not yet wired up (see below)
 
-```bash
-npx skills add https://mintlify.com/docs
+## Editing
+
+Edit the `.mdx` files directly. Pushing to `main` deploys. Mintlify opens preview
+deployments for pull requests.
+
+Voice and formatting follow `STANDARDS.md` in the Snapmarket ops repo: prose over
+bullets for anything that is an argument, sentence case headings, no semicolons,
+Oxford comma, em dashes without spaces.
+
+## Switching the heading font to Novela
+
+Headings use Fraunces, a stand-in. The Novela web fonts are in `fonts/` but are not
+referenced, pending confirmation that the licence permits self-hosting on a public
+site. Once confirmed, replace the `fonts` block in `docs.json` with:
+
+```json
+"fonts": {
+  "heading": {
+    "family": "Novela",
+    "source": "https://docs.snapmarket.co/fonts/novela-regular.woff2",
+    "format": "woff2"
+  },
+  "body": { "family": "Besley" }
+}
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+## Source of truth
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
-
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+The operations repo is canonical for how the work is actually done. This repo is
+canonical for how it is explained to clients. When the method changes, both need
+updating.
