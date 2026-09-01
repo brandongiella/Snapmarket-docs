@@ -25,7 +25,7 @@
         ]
       },
       {
-        "group": "Chapter 1 — Story",
+        "group": "Chapter 1—Story",
         "icon": "feather",
         "pages": [
           "story/overview",
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "group": "Chapter 2 — System",
+        "group": "Chapter 2—System",
         "icon": "gear",
         "pages": [
           "system/overview",
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "group": "Chapter 3 — Send",
+        "group": "Chapter 3—Send",
         "icon": "paper-plane",
         "pages": [
           "send/overview",
@@ -130,7 +130,7 @@
         ]
       },
       {
-        "group": "Scale — the layer",
+        "group": "Scale—the layer",
         "icon": "chart-line",
         "pages": [
           "scale/overview",
