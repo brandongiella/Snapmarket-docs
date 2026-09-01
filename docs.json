@@ -16,6 +16,7 @@
         "pages": [
           "index",
           "method/overview",
+          "method/how-to-work-with-us",
           "method/vocabulary",
           "method/coordinates",
           "method/tools",
@@ -24,7 +25,7 @@
         ]
       },
       {
-        "group": "Chapter 1 — Story",
+        "group": "Chapter 1—Story",
         "icon": "feather",
         "pages": [
           "story/overview",
@@ -57,12 +58,12 @@
               "story/visual-identity/photography-and-video"
             ]
           },
-          "story/storybook",
+          "story/artifact",
           "story/what-we-need-from-you"
         ]
       },
       {
-        "group": "Chapter 2 — System",
+        "group": "Chapter 2—System",
         "icon": "gear",
         "pages": [
           "system/overview",
@@ -87,11 +88,11 @@
               "system/analytics/seo"
             ]
           },
-          "system/capstone"
+          "system/artifact"
         ]
       },
       {
-        "group": "Chapter 3 — Send",
+        "group": "Chapter 3—Send",
         "icon": "paper-plane",
         "pages": [
           "send/overview",
@@ -101,7 +102,7 @@
             "pages": [
               "send/podcast/overview",
               "send/podcast/show-setup",
-              "send/podcast/content-package",
+              "send/podcast/v2m",
               "send/podcast/video-editing"
             ]
           },
@@ -125,11 +126,11 @@
               "send/assets/paid-and-pr"
             ]
           },
-          "send/capstone"
+          "send/artifact"
         ]
       },
       {
-        "group": "Scale — the layer",
+        "group": "Scale—the layer",
         "icon": "chart-line",
         "pages": [
           "scale/overview",
@@ -137,8 +138,7 @@
           "scale/leading-and-lagging",
           "scale/baseline",
           "scale/unit-economics",
-          "scale/experiments",
-          "scale/audit"
+          "scale/experiments"
         ]
       },
       {
@@ -197,5 +197,37 @@
   "appearance": {
     "default": "light",
     "strict": true
-  }
+  },
+  "redirects": [
+    {
+      "source": "/story/storybook",
+      "destination": "/story/artifact",
+      "permanent": true
+    },
+    {
+      "source": "/system/capstone",
+      "destination": "/system/artifact",
+      "permanent": true
+    },
+    {
+      "source": "/send/capstone",
+      "destination": "/send/artifact",
+      "permanent": true
+    },
+    {
+      "source": "/send/podcast/content-package",
+      "destination": "/send/podcast/v2m",
+      "permanent": true
+    },
+    {
+      "source": "/scale/audit",
+      "destination": "/method/thesis",
+      "permanent": true
+    },
+    {
+      "source": "/method/manuscript",
+      "destination": "/method/vocabulary",
+      "permanent": true
+    }
+  ]
 }
