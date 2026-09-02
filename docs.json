@@ -229,5 +229,10 @@
       "destination": "/method/vocabulary",
       "permanent": true
     }
-  ]
+  ],
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-0DQPFKSX31"
+    }
+  }
 }
