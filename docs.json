@@ -19,9 +19,9 @@
           "method/how-to-work-with-us",
           "method/vocabulary",
           "method/coordinates",
-          "method/tools",
           "method/thesis",
-          "method/prologue"
+          "method/prologue",
+          "method/tools"
         ]
       },
       {
@@ -58,8 +58,7 @@
               "story/visual-identity/photography-and-video"
             ]
           },
-          "story/artifact",
-          "story/what-we-need-from-you"
+          "story/artifact"
         ]
       },
       {
